@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Barcode Scanner UI Tweaks */
+#reader__dashboard_section_csr button {
+  @apply bg-emerald-500 text-white px-4 py-2 rounded-xl font-bold hover:bg-emerald-600 transition-colors cursor-pointer text-sm;
+}
+
+#reader__status_span {
+  display: none !important;
+}
+
+#reader video {
+  border-radius: 1.5rem !important;
+  object-fit: cover !important;
+}
+
+#reader__camera_selection {
+  @apply bg-slate-100 border-none rounded-lg px-2 py-1 text-sm mt-2;
+}
+
+#reader img {
+  display: none !important;
+}

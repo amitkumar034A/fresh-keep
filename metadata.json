@@ -1,0 +1,6 @@
+{
+  "name": "FreshKeep - Food Waste Reduction",
+  "description": "A food waste reduction app that helps you manage your inventory, track expiry dates, and get AI-powered recipe suggestions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
